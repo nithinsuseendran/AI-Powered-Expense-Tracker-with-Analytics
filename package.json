@@ -1,0 +1,13 @@
+{
+    "name": "spendai-expense-tracker",
+    "version": "1.0.0",
+    "description": "AI-Powered Expense Tracker with ChatBot and Analytics",
+    "scripts": {
+        "backend": "cd backend && npm run dev",
+        "frontend": "cd frontend && npm start",
+        "install:all": "cd backend && npm install && cd ../frontend && npm install",
+        "dev": "start cmd /k \"cd backend && npm run dev\" && start cmd /k \"cd frontend && npm start\""
+    },
+    "author": "",
+    "license": "ISC"
+}
